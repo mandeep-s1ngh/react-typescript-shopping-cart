@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 import Cart from "./components/Cart";
 import ProductList from "./components/ProductList";
 import { useState } from "react";
@@ -13,7 +13,7 @@ function App() {
     <>
       <Header viewCart={viewCart} setViewCart={setViewCart} />
       {pageContent}
-      {/* <Footer viewCart={viewCart} /> */}
+      <Footer viewCart={viewCart} />
     </>
   );
 
