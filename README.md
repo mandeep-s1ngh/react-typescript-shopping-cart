@@ -1,27 +1,34 @@
-# React + TypeScript + Vite
+# **React TypeScript Shopping Cart**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## <ins>Summary</ins>
 
-Currently, two official plugins are available:
+This is a Shopping Cart built using React with Vite, Typescript. You are able to add items to the cart, view the items in the cart, alter the quantity of the items in the cart and remove items from the cart.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Please note - there is no back-end configured to handle the placing of the order. This is just front-end only however if you do click "Place Order", you will be presented with a "Thank you for your order" message.
 
-## Expanding the ESLint configuration
+The purpose of this project was to gain an understanding of TypeScript and widen my knowledge of React by using it with TypeScript.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## <ins>Screenshots</ins>
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+![Homepage](./screenshots/homepage.png)
+![Cart](./screenshots/cart.png)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+---
+
+## <ins>Tech Stack</ins>
+
+- React
+- TypeScript
+- Vite
+
+---
+
+## <ins>Local Setup</ins>
+
+1. To clone the repo, open up your terminal and run `git clone https://github.com/mandeep-s1ngh/react-typescript-shopping-cart.git` - once you have it cloned, move the folder to your usual directory for projects (if necessary).
+
+2. You can then open up the folder in your code editor of choice and run `npm install` to install all the dependencies.
+
+3. Then run `npm run dev`. This will start the app and keep it running in the background whilst you make any changes.
