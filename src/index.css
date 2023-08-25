@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 
 * {
   margin: 0;
@@ -12,7 +12,8 @@
 }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "DM Serif Display", serif;
+  font-size: 20px;
 }
 
 button,
