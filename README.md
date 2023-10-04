@@ -19,6 +19,7 @@ The purpose of this project was to gain an understanding of TypeScript and widen
 
 ## <ins>Tech Stack</ins>
 
+- CSS
 - React
 - TypeScript
 - Vite
